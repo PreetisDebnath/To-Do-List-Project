@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="icon" href="Study.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="box">
+
+    <h1>To Do List</h1>
+
+    <div class="timeBox">
+        <p id="date"></p>
+        <p id="time"></p>
+    </div>
+
+    <div class="top">
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <button id="addBtn">Add</button>
+    </div>
+
+    <div class="filterBox">
+        <input type="date" id="filterDate">
+        <button id="showAll">All</button>
+    </div>
+
+    <p id="count">0 Tasks</p>
+
+    <ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
